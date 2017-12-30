@@ -1,6 +1,6 @@
-from pybrain.datasets import SupervisedDataSet
-from pybrain.tools.shortcuts import buildNetwork
-from pybrain.supervised import BackpropTrainer
+from pybrain.datasets import SupervisedDataSet # This is not acceptable in my computer after install pybrain
+from pybrain.tools.shortcuts import buildNetwork  # in my computer haven't buildNetwor in pybrain
+from pybrain.supervised import BackpropTrainer # in my computer the order is another TrainerBackprop. What is wrong
 
 # cria-se um conjunto de entradas (dataset) para treinamento
 # são passadas as dimensões dos vetores de entrada e do objetivo
